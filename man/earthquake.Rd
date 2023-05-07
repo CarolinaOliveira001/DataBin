@@ -5,20 +5,29 @@
 \alias{earthquake}
 \title{Earthquake data from Japan}
 \format{
-## `who`
-A data frame with 62 rows and 2 columns:
+This data frame contains 62 rows and 2 columns:
 \describe{
-  \item{magnitude}{Magnitude of the earthquake}
-  \item{direction}{Direction of the earthquake}
+  \item{\emph{magnitude}}{Magnitude of the earthquake}
+  \item{\emph{direction}}{Direction of the earthquake}
 }
-}
-\source{
-<https://is.gd/e6wKRk>
 }
 \usage{
 earthquake
 }
 \description{
-A tidy dataset of
+A tidy dataset is about earthquakes from Japan which occured 72h before the
+big March, 1th earthquake.
+}
+\details{
+The link source, given from the article down below, is not accessible
+anymore.
+
+The dataset was obtained by doing some transformations from the original one.
+Those transformations were also well explained in the article.
+}
+\references{
+Imoto, T., Shimizu, K. & Abe, T. A cylindrical distribution with
+heavy-tailed linear part. Jpn J Stat Data Sci 2, 129–154 (2019).
+\url{https://doi.org/10.1007/s42081-019-00031-5}
 }
 \keyword{datasets}

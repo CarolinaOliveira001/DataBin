@@ -8,7 +8,7 @@ wildfire <- readr::read_csv("https://raw.githubusercontent.com/CarolinaOliveira0
 
 wildfire <- wildfire %>% select(2:3)
 
-colnames(wildfire) <- c("mean_Orientation", "burnt_Area")
+colnames(wildfire) <- c("meanOrientation", "burntArea")
 
 ## Loading the windspeed dataset and small cleaning.
 

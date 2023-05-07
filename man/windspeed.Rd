@@ -5,20 +5,26 @@
 \alias{windspeed}
 \title{Wind speed data from Luxembourg}
 \format{
-## `who`
-A data frame with 62 rows and 2 columns:
+This data frame contains 97 rows and 4 columns:
 \describe{
-  \item{magnitude}{Magnitude of the earthquake}
-  \item{direction}{Direction of the earthquake}
+  \item{\emph{date}}{Date of the measured wind}
+  \item{\emph{direction}}{Direction which the wind is blowing}
+  \item{\emph{speedInKnots}}{Speed of the wind in knots}
+  \item{\emph{speedInKMPerHour}}{Speed of the wind in km/h}
 }
 }
 \source{
-<https://is.gd/e6wKRk>
+<\url{https://mesonet.agron.iastate.edu/request/download.phtml?network=LU__ASOS}>
 }
 \usage{
 windspeed
 }
 \description{
-A tidy dataset of
+A tidy dataset is about wind speed measured in Luxembourg from 01-01-2013 to 09-04-2013.
+}
+\details{
+The fourth column, meaning the column speedInKMPerHour, was obtained
+by multiplying each value of column speedInKnots by 1.852. The reason for it
+is that 1 knot = 1.852 km/h.
 }
 \keyword{datasets}
