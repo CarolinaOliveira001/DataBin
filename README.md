@@ -11,7 +11,10 @@ devtools::install_github('CarolinaOliveira001/DataBin')
 
 ## Description of the package
 
-This package contains 3 different datasets: wildfire, windspeed and earthquake.
+This package contains three different datasets: wildfire, windspeed and earthquake.
+However more datasets will be added in the future. For now, these datasets were
+part of my master thesis and can be used for reproducibility purposes.
 
 ## Acknowledgement
-I would like to thank two people who made this package possible:
+I would like to thank two people who made this package possible by sending me the
+cleaned dataset.
